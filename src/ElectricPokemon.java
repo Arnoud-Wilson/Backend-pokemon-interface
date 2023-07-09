@@ -4,6 +4,9 @@ public class ElectricPokemon extends Pokemon {
 
 
     public ElectricPokemon(String name, int level, int hp, String food, String sound) {
-        super(name, level, hp, food, sound, this.type);
+        super(name, level, hp, food, sound, type);
     }
+
+
+    //TODO: make attacks
 }
